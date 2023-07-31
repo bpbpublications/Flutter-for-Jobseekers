@@ -1,0 +1,45 @@
+name: weather
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+  build_runner: ^2.3.0
+
+  cupertino_icons: ^1.0.0
+  dio: ^5.1.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.0
+  flutter_dotenv: ^5.0.0
+  freezed: ^2.3.0
+  freezed_annotation: ^2.2.0
+  google_fonts: ^4.0.0
+  intl: ^0.18.0
+  json_annotation: ^4.8.0
+  location: ^5.0.0-dev.8
+  pull_to_refresh: ^2.0.0
+  shared_preferences: ^2.1.0
+
+dev_dependencies:
+  built_value_generator: ^8.4.0
+
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+  json_serializable: ^6.6.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/moon/
+    - assets/images/weather/
+    - assets/images/misc/
+    - .env
